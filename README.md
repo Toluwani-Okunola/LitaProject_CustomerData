@@ -1,4 +1,4 @@
-# LitaProject_CustomerData
+# Lita Capstone Project
 
 ## Customer Data
 
@@ -38,10 +38,11 @@ EDA involves exploring the sales data to answer key questions, such as;
   5. How much revenue was lost to Cancelled Subscription
 
 ### Data Analysis
-These are the excel formular i used to calculate the most popular subscription, Aveage Subscription Duration and the Total Number of Canceled and Active Subscription
+*These are the excel formular i used to calculate the most popular subscription, Aveage Subscription Duration and the Total Number of Canceled and Active Subscription*
+
 ![C Formular Result](https://github.com/user-attachments/assets/476a8476-50c0-4ce8-8465-282618050374)
 
-These are the codes i wrote to query the data:
+*These are the codes i wrote to query the data:*
 ```
 SELECT * FROM [dbo].[Customer Data]
 ```
@@ -103,7 +104,7 @@ GROUP BY Canceled
 ![consumer data q8](https://github.com/user-attachments/assets/c97e8903-00e2-4eff-b4bb-43cd86f93bc0)
 
 ### Visual Analysis Inference
-Data Summary using Pivot Table
+**Data Summary using Pivot Table**
 ![customer data](https://github.com/user-attachments/assets/9f4342bc-f30f-4384-bdc2-05461fe8e4af)
 ![customer 1](https://github.com/user-attachments/assets/e5135788-e96e-4530-9dee-fa7cd5fb9e51)
 ![customer 2](https://github.com/user-attachments/assets/c16d578d-8628-4a71-826d-b3796a9a5b5c)
@@ -111,7 +112,7 @@ Data Summary using Pivot Table
 ![customer 4](https://github.com/user-attachments/assets/2c48ba59-687a-4011-b037-c16e2113d63d)
 
 
-Data Visualization using Power BI
+**Data Visualization using Power BI**
 ![customer visual](https://github.com/user-attachments/assets/20893269-3e3f-4692-9a6f-4e5f6470425e)
 
 ![customer visual 1](https://github.com/user-attachments/assets/e449b418-0f78-4358-8460-c7963d9fd160)
@@ -123,6 +124,34 @@ Data Visualization using Power BI
 
 
 ### Results/Findings
+
+1. Active Subscriptions: 15,175
+2. Canceled Subscriptions: 18,612
+3. Total Customers: 33,787
+4. Cancellation Rate: 55%
+5. Total Revenue: $67,540,175
+6. Average Subscription Duration:    12 months
+
+*Customer Segment Analysis:*
+
+1. Top-performing subscription type by Revenue and Count:
+ Basic
+2. Cancellation Distribution:
+    - Basic: 11,854 (canceled), 5,067 (active)
+    - Premium: 3,382 (canceled), 5,064 (active)
+    - Standard: 3,376 (canceled), 5,044 (active)
+
+*Regional Analysis:*
+
+1. East: 100% cancellation rate
+2. North: Best-performing region with highest active users and lowest cancellations
+
+*Subscription Trends:*
+
+1. Peak Subscription Month: November 2023
+2. YoY Comparison:
+    - 2023: 17m (active), 24m (canceled)
+    - 2024: 14m (active), 13m (canceled)
 
 ### Reccommendation
 

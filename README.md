@@ -3,10 +3,17 @@
 ## Customer Data
 
 ### Project Overview
-This data analysis project aims to provide insights into the sales performance of a retail store over the past and current year. By analysising various aspect of the data, we seek to identify (top selling product, product performance, regional performance and monthly sales trend, make data driven reccommendation and gain deeper understanding of the store performance
+This data analysis project aims analyze customer data for a subscription service to identify 
+segments and trends. By analysising various aspect of the data, we seek to identify customer behaviour, track subscription type and identify key trend in cancellation and renewal, make data driven reccommendation and gain deeper understanding of the Service Company.
 
 ### Data Source
-The primary dataset used for this analysis is the "sales data.csv" file containing detailed information about each sales made by the store. This was provided by the Incubator Hub.
+The primary dataset used for this analysis is the "Customer data.csv" file containing detailed information about each sales made by the Service Company. This was provided by the Incubator Hub.
+
+### Metrics of Focus
+Subscription Type
+Canceled
+Count of customerID
+Region
 
 ### Tool Used
 - Excel: 
@@ -24,10 +31,11 @@ In the initial stage, I performed the following task:
 
 ### Exploratory Data Analysis
 EDA involves exploring the sales data to answer key questions, such as;
-  1. What is the overall sales trends?
-  2. Which products are top sellers?
+  1. What is total number of cancelled and Active Subscription
+  2. Which subscription type is top seller
   3. What is the regional performance?
   4. What is the monthly sales trends?
+  5. How much revenue was lost to Cancelled Subscription
 
 ### Data Analysis
 These are the excel formular i used to calculate the most popular subscription, Aveage Subscription Duration and the Total Number of Canceled and Active Subscription
@@ -119,4 +127,4 @@ Data Visualization using Power BI
 ### Reccommendation
 
 ### Limitation
-I created a calculated column named Sales by mltiplying unit pric and quantity. This is an important column to analysis the sales performance of the store
+I created a calculated column named Sub Duration using the subscription start and end column. This is an important column to analysis the average of subscription duration in the service company

@@ -33,7 +33,7 @@
 ### Project Overview
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This data analysis project aims analyze customer data for a subscription service to identify segments and trends. By analysising various aspect of the data, we seek to identify customer behaviour, track subscription type and identify key trend in cancellation and renewal, make data driven reccommendation and gain deeper understanding of the Service Company.
+This data analysis project aims analyze customer data for a subscription service to identify segments and trends. By analysising various aspect of the data, I seek to identify customer behaviour, track subscription type and identify key trend in cancellation and renewal, make data driven reccommendation and gain deeper understanding of the Service Company.
 
 
 ### Data Source
@@ -41,23 +41,23 @@ This data analysis project aims analyze customer data for a subscription service
 
 The primary dataset used for this analysis is the "Customer data.csv" file containing detailed information about each sales made by the Service Company. This was provided by the Incubator Hub.
 
-This dataset include the following column:
+This dataset include the following columns:
 
-Customer ID
+Customer ID - Unique ID to identify each customer
 
-Customer Name
+Customer Name - Name of Customer
 
-Region
+Region - Region where the customer belong
 
-Subscription Type
+Subscription Type - Type of subscription plan each customer subscribed to
 
-Subscription Start
+Subscription Start - Start date of each customer subscription
 
-Subscription End
+Subscription End - End date of each customer subcription
 
-Canceled
+Canceled - Status of each customer
 
-Revenue
+Revenue - Price of each subscription type
 
 
 ### Metrics of Focus

@@ -15,8 +15,12 @@
 [Exploratory Data Analysis](#exploratory-data-analysis)
 
 [Data Analysis](#data-analysis)
+  - [Formulars](#formulars)
+  - [Queries](#queries)
 
 [Visual Analysis Inference](#visual-analysis-inference)
+  - [Data Summary](#data-summary)
+  - [Data Visualization](#data-visualization)
 
 [Results and Findings](#results-and-findings)
 
@@ -27,25 +31,49 @@
 
 
 ### Project Overview
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This data analysis project aims analyze customer data for a subscription service to identify 
-segments and trends. By analysising various aspect of the data, we seek to identify customer behaviour, track subscription type and identify key trend in cancellation and renewal, make data driven reccommendation and gain deeper understanding of the Service Company.
+This data analysis project aims analyze customer data for a subscription service to identify segments and trends. By analysising various aspect of the data, we seek to identify customer behaviour, track subscription type and identify key trend in cancellation and renewal, make data driven reccommendation and gain deeper understanding of the Service Company.
 
 
 ### Data Source
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 The primary dataset used for this analysis is the "Customer data.csv" file containing detailed information about each sales made by the Service Company. This was provided by the Incubator Hub.
 
+This dataset include the following column:
 
-### Metrics of Focus
+Customer ID
+
+Customer Name
+
+Region
 
 Subscription Type
+
+Subscription Start
+
+Subscription End
+
 Canceled
+
+Revenue
+
+
+### Metrics of Focus
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Subscription Type
+
+Canceled
+
 Count of customerID
+
 Region
 
 
 ### Tool Used
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - Excel: 
   - Data Cleaning and Preparation
@@ -57,6 +85,7 @@ Region
 
 
 ### Data Cleaning and Preparation
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 In the initial stage, I performed the following task:
 1. Data Loading and Inspection
@@ -64,6 +93,7 @@ In the initial stage, I performed the following task:
 
 
 ### Exploratory Data Analysis
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 EDA involves exploring the sales data to answer key questions, such as;
   1. What is total number of cancelled and Active Subscription
@@ -75,11 +105,50 @@ EDA involves exploring the sales data to answer key questions, such as;
 
 ### Data Analysis
 
-*These are the excel formular i used to calculate the most popular subscription, Aveage Subscription Duration and the Total Number of Canceled and Active Subscription*
+#### Formulars
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Formular used to calculate most popular type
+
+Basic - Most POPULAR
+```
+=COUNTIF(D2:D33788,D2)
+```
+
+PREMIUN
+```
+=COUNTIF(D2:D33788,D3)
+```
+
+Standard
+```
+=COUNTIF(D2:D33788,D5)
+```
+
+
+Formular used to calculate average subscription duration
+```
+=AVERAGE(Table2[Sub-Month Duration])
+```
+
+Formular used to sort canceled
+
+FALSE
+```
+=COUNTIF(Table2[Canceled],G2)
+```
+
+TRUE
+```
+=COUNTIF(Table2[Canceled],G3)
+```
+
 
 ![C Formular Result](https://github.com/user-attachments/assets/476a8476-50c0-4ce8-8465-282618050374)
 
-*These are the codes i wrote to query the data:*
+
+#### Queries
+---------------------------------------------------------------------------
 
 ```
 SELECT * FROM [dbo].[Customer Data]
@@ -151,20 +220,31 @@ GROUP BY Canceled
 
 ### Visual Analysis Inference
 
-**Data Summary using Pivot Table**
+#### Data Summary
+----------------------------------------------------------------------------------------------------------------
+
+SUBSCRIPTION TYPE
 
 ![customer data](https://github.com/user-attachments/assets/9f4342bc-f30f-4384-bdc2-05461fe8e4af)
 
+SUBSCRIPTION TYPE
+
 ![customer 1](https://github.com/user-attachments/assets/e5135788-e96e-4530-9dee-fa7cd5fb9e51)
+
+CANCELLATION
 
 ![customer 2](https://github.com/user-attachments/assets/c16d578d-8628-4a71-826d-b3796a9a5b5c)
 
+REGION
+
 ![customer 3](https://github.com/user-attachments/assets/bc9b358a-ceb6-4e33-b7be-94697f5d8829)
 
+MONTH and YEAR
 ![customer 4](https://github.com/user-attachments/assets/2c48ba59-687a-4011-b037-c16e2113d63d)
 
 
-**Data Visualization using Power BI**
+#### Data Visualization
+-----------------------------------------------------------------------------------------------
 
 ![customer visual](https://github.com/user-attachments/assets/20893269-3e3f-4692-9a6f-4e5f6470425e)
 
@@ -176,6 +256,7 @@ GROUP BY Canceled
 
 
 ### Results and Findings
+----------------------------------------------------------------------------------------
 
 1. Active Subscriptions: 15,175
 2. Canceled Subscriptions: 18,612
@@ -205,15 +286,20 @@ GROUP BY Canceled
     - 2023: 17m (active), 24m (canceled)
     - 2024: 14m (active), 13m (canceled)
 
+Only one type of subscription type is available in all region
+
 
 ### Recommendation
+------------------------------------------------------------------------------------------------------------------------------
 
 1. Investigate cancellation reasons to reduce revenue loss.
 2. Market and promote Premium and Standard subscriptions type.
 3. Target top-performing regions with tailored marketing strategies.
-4. Offer all subscription types in all regions.
+4. Offer all subscription types to all regions.
+5. Review Basic Subscription type package
 
 
 ### Limitation
+---------------------------------------------------------------------------------------------------------------------------
 
 I created a calculated column named Sub Duration using the subscription start and end column. This is an important column to analysis the average of subscription duration in the service company.

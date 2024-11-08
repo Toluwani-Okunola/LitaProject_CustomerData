@@ -246,9 +246,9 @@ MONTH and YEAR
 #### Data Visualization
 -----------------------------------------------------------------------------------------------
 
-![customer visual](https://github.com/user-attachments/assets/20893269-3e3f-4692-9a6f-4e5f6470425e)
+![customer visual](https://github.com/user-attachments/assets/53e9a8bb-8a9a-4b98-96f1-5ddf4c483a62)
 
-![customer visual 1](https://github.com/user-attachments/assets/e449b418-0f78-4358-8460-c7963d9fd160)
+![customer visual 1](https://github.com/user-attachments/assets/3e0bf330-238e-499b-819d-111f7bc4f680)
 
 ![customer visual 2](https://github.com/user-attachments/assets/07044a1f-6b73-4d5e-8fae-c22a6c8eb3f2)
 

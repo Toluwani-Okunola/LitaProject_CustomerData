@@ -281,7 +281,7 @@ MONTH and YEAR
     - 2023: 17m (active), 24m (canceled)
     - 2024: 14m (active), 13m (canceled)
 
-Only one type of subscription type is available in all region
+- Only one type of subscription types is available in all regions
 
 
 ### Recommendation

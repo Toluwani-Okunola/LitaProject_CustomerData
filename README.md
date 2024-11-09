@@ -65,15 +65,15 @@ Revenue - Price of each subscription type
 ### Metrics of Focus
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Subscription Trends
+1. Subscription Trends
 
-Cancellation Rate
+2. Cancellation Rate
 
-Average Subscription Duration
+3. Average Subscription Duration
 
-Subscription Status
+4. Subscription Status
 
-Revenue Growth Rate
+5. Revenue Growth Rate
 
 
 

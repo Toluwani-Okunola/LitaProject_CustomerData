@@ -117,17 +117,7 @@ Formular used to calculate most popular type
 
 Basic - Most POPULAR
 ```
-=COUNTIF(D2:D33788,D2)
-```
-
-PREMIUN
-```
-=COUNTIF(D2:D33788,D3)
-```
-
-Standard
-```
-=COUNTIF(D2:D33788,D5)
+=COUNTIF(RANGE, CRITERIA)
 ```
 
 

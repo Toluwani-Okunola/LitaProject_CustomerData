@@ -65,13 +65,16 @@ Revenue - Price of each subscription type
 ### Metrics of Focus
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Subscription Type
+Subscription Trends
 
-Canceled
+Cancellation Rate
 
-Count of customerID
+Average Subscription Duration
 
-Region
+Subscription Status
+
+Revenue Growth Rate
+
 
 
 ### Tool Used

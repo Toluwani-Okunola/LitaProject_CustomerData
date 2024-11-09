@@ -20,11 +20,11 @@ CUSTOMER DATA
   - [Formulars](#formulars)
   - [Queries](#queries)
 
-[Visual Analysis Inference](#visual-analysis-inference)
-  - [Data Summary](#data-summary)
-  - [Data Visualization](#data-visualization)
+[Data Summary](#data-summary)
 
-[Results and Findings](#results-and-findings)
+[Visual Insight](#visual-insight)
+
+[Findings](#findings)
 
 [Recommendation](#recommendation)
 
@@ -213,9 +213,8 @@ GROUP BY Canceled
 ![consumer data q8](https://github.com/user-attachments/assets/c97e8903-00e2-4eff-b4bb-43cd86f93bc0)
 
 
-### Visual Analysis Inference
 
-#### Data Summary
+### Data Summary
 ----------------------------------------------------------------------------------------------------------------
 
 SUBSCRIPTION TYPE
@@ -238,7 +237,7 @@ MONTH and YEAR
 ![customer 4](https://github.com/user-attachments/assets/2c48ba59-687a-4011-b037-c16e2113d63d)
 
 
-#### Data Visualization
+### Visual Insight
 -----------------------------------------------------------------------------------------------
 
 ![customer visual](https://github.com/user-attachments/assets/53e9a8bb-8a9a-4b98-96f1-5ddf4c483a62)
@@ -250,7 +249,7 @@ MONTH and YEAR
 ![customer visual 3](https://github.com/user-attachments/assets/cd2e0aa2-247c-4f9e-ab08-cf650c46dc9c)
 
 
-### Results and Findings
+### Findings
 ----------------------------------------------------------------------------------------
 
 1. Active Subscriptions: 15,175

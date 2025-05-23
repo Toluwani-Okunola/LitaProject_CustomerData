@@ -1,4 +1,4 @@
-# Lita Capstone Project
+# LITA Capstone Project
 
 ## Project Title
 
